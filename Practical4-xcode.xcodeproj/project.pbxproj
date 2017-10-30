@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		D57CF2471FA7ACB300F268DC /* Practical4-xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practical4-xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57CF24A1FA7ACB300F268DC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D57CF29A1FA7AF2300F268DC /* Practical4-xcode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Practical4-xcode"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D57CF24A1FA7ACB300F268DC /* main.cpp */,
+				D57CF29A1FA7AF2300F268DC /* Practical4-xcode */,
 			);
 			path = "Practical4-xcode";
 			sourceTree = "<group>";
