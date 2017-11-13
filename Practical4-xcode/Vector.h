@@ -14,6 +14,8 @@
  * Add toString, operator<<, and operator>> for reading
  * Vectors
  */
+
+
 class Vector {
 public:
 	// Initialize the vector to empty
@@ -21,7 +23,7 @@ public:
 
 	// Initialize the vector to have size many elements all of them equal val
 	// If size is impossible then do whatever you want.
-	Vector(int size,int val=0);
+	Vector(int size, int val = 0);
 
 	// Copy constructor - implement deep copy
 	Vector(const Vector&);
@@ -68,7 +70,7 @@ public:
 	// add that entry to the line and that's it.
 	// The fill character should be used for separating 
 	// the entries in the vector.
-	std::string toString(unsigned int width=0, char fill=' ') const;
+	std::string toString(unsigned int width = 0, char fill = ' ') const;
 
 	// Similar to toString.
 	// Use the width and fill values of the stream.
@@ -82,7 +84,9 @@ public:
 	// and leave the stream corrupt.
 	friend std::istream& operator>>(std::istream&, Vector&);
 private:
-	// TODO: implement me
+	int* vector;
+	int numberOfInt;
+	int capacity;
 };
 
 #endif /* VECTOR_H_ */
